@@ -1,5 +1,5 @@
 config ZMK_KEYBOARD_NAME
-    default "Treo650"
+    default "treo650"
 
 config ZMK_KSCAN_MATRIX
     default y
