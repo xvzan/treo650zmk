@@ -1,0 +1,11 @@
+file_format: "1"
+id: treo650
+name: treo650
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: https://github.com/xvzan/treo650zmk
