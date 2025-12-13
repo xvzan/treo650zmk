@@ -23,4 +23,3 @@ include:
   - board: nrf52840dk_nrf52840
     shield: treo650
     # snippet: studio-rpc-usb-uart
-  cmake-args: -DZMK_EXTRA_MODULES=$GITHUB_WORKSPACE
