@@ -10,8 +10,5 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: treo650zmk
-      path: treo650zmk
-      url: https://github.com/xvzan/treo650zmk.git
   self:
     path: config
