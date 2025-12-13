@@ -8,8 +8,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    model = "custom-nrf52840-keyboard";
-    compatible = "zan,custom-kbd";
+    model = "treo650-nrf52840-keyboard";
+    compatible = "xvzan,treo-650-zmk";
 
     chosen {
         zephyr,code-partition = &code_partition;
