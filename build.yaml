@@ -20,6 +20,6 @@
 ---
 
 include:
-  - board: nrf52840dk_nrf52840
+  - board: nrf52840dongle_nrf52840
     shield: treo650
     # snippet: studio-rpc-usb-uart
