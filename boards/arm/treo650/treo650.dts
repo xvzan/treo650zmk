@@ -1,3 +1,4 @@
+/dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
 #include "treo650-layouts.dtsi"
 #include <dt-bindings/led/led.h>
