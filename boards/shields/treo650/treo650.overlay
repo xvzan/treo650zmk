@@ -46,7 +46,7 @@ RC(3,7) RC(2,6) RC(2,5) RC(2,4) RC(2,3) RC(2,2) RC(2,1) RC(4,0) RC(3,2) RC(3,1)
 };
 
 / {
-    physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
+    physical_layout_0: physical_layout_0 { // First physical layout, use different naming for other layouts
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         kscan = <&kscan0>; // Label of the kscan node, optional if all layouts use the same

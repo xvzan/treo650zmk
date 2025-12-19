@@ -20,6 +20,6 @@
 ---
 
 include:
-  - board: nice_nano_v2
+  - board: nrfmicro/nrf52840
     shield: treo650
     # snippet: studio-rpc-usb-uart
