@@ -45,6 +45,10 @@ RC(3,7) RC(2,6) RC(2,5) RC(2,4) RC(2,3) RC(2,2) RC(2,1) RC(4,0) RC(3,2) RC(3,1)
         >;
     };
     chosen {
+        zephyr,code-partition = &code_partition;
+        zephyr,sram = &sram0;
+        zephyr,flash = &flash0;
+        zephyr,console = &cdc_acm_uart;
         zmk,physical-layout = &layout_0;
         // Other chosen items
     };
