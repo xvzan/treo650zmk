@@ -33,7 +33,7 @@
             bindings = <
              &kp HOME           &kp UP          &bt BT_CLR
              &kp LEFT           &kp TAB         &kp RIGHT
-&trans  &trans  &kp DOWN        &trans  &trans
+&trans  &trans  &kp DOWN        &trans  &&bt BT_SEL 0
 &kp SLASH    &kp PLUS           &kp N1          &kp N2         &kp N3     &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
 &kp AMPS     &kp MINUS          &kp N4          &kp N5         &kp N6     &kp DOLLAR    &kp EXCLAMATION  &kp COLON        &kp SQT  &kp BACKSPACE
 &to 0        &kp ASTRK          &kp N7          &kp N8         &kp N9     &kp HASH      &kp QUESTION     &kp COMMA        &kp DOT  &kp ENTER
@@ -45,7 +45,7 @@
             bindings = <
              &kp HOME           &kp UP          &bt BT_CLR
              &kp LEFT           &kp TAB         &kp RIGHT
-&trans  &trans  &kp DOWN        &trans  &trans
+&trans  &trans  &kp DOWN        &trans  &&bt BT_SEL 0
 &kp SLASH    &kp PLUS           &kp N1          &kp N2         &kp N3     &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
 &kp AMPS     &kp MINUS          &kp N4          &kp N5         &kp N6     &kp DOLLAR    &kp EXCLAMATION  &kp COLON        &kp SQT  &kp BACKSPACE
 &to 1        &kp ASTRK          &kp N7          &kp N8         &kp N9     &kp HASH      &kp QUESTION     &kp COMMA        &kp DOT  &kp ENTER
