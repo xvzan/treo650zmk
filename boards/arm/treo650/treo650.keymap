@@ -1,4 +1,5 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/keys.h>
 
@@ -30,7 +31,7 @@
 
         layer_1 {
             bindings = <
-             &kp HOME           &kp UP          &trans
+             &kp HOME           &kp UP          &bt BT_CLR
              &kp LEFT           &kp TAB         &kp RIGHT
 &trans  &trans  &kp DOWN        &trans  &trans
 &kp SLASH    &kp PLUS           &kp N1          &kp N2         &kp N3     &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
@@ -42,7 +43,7 @@
 
         layer_2 {
             bindings = <
-             &kp HOME           &kp UP          &trans
+             &kp HOME           &kp UP          &bt BT_CLR
              &kp LEFT           &kp TAB         &kp RIGHT
 &trans  &trans  &kp DOWN        &trans  &trans
 &kp SLASH    &kp PLUS           &kp N1          &kp N2         &kp N3     &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
