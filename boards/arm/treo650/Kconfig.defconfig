@@ -10,16 +10,6 @@ config USB_NRFX
 
 endif # USB_DEVICE_STACK
 
-if ZMK_BACKLIGHT
-
-config PWM
-    default y
-
-config LED_PWM
-    default y
-
-endif # ZMK_BACKLIGHT
-
 config BT_CTLR
     default BT
 

@@ -51,7 +51,7 @@ CONFIG_ZMK_IDLE_TIMEOUT=30000
 
 # # Keyboard backlight Setting
 # # enable keyboard backlight
-# CONFIG_ZMK_BACKLIGHT=y                                
+CONFIG_ZMK_BACKLIGHT=y                                
 # # set the brightness the keyboard backlight when powered on in 1-100
 # CONFIG_ZMK_BACKLIGHT_BRT_START=40                     
 # # set the brightness step for each change of backlight brightness
