@@ -50,6 +50,7 @@ RC(3,7) RC(2,6) RC(2,5) RC(2,4) RC(2,3) RC(2,2) RC(2,1) RC(4,0) RC(3,2) RC(3,1)
         zephyr,console = &cdc_acm_uart;
         zmk,physical-layout = &layout_0;
         zmk,backlight = &backlight;
+        zmk,battery = &vbatt;
         // Other chosen items
     };
     backlight: backlight {
@@ -61,6 +62,10 @@ RC(3,7) RC(2,6) RC(2,5) RC(2,4) RC(2,3) RC(2,2) RC(2,1) RC(4,0) RC(3,2) RC(3,1)
 };
 
 &adc {
+    status = "okay";
+};
+
+&vbatt {
     status = "okay";
 };
 
