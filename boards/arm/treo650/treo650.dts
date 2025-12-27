@@ -59,13 +59,15 @@ RC(3,7) RC(2,6) RC(2,5) RC(2,4) RC(2,3) RC(2,2) RC(2,1) RC(4,0) RC(3,2) RC(3,1)
              gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
         };
     };
+    vbatt: vbatt {
+        compatible = "zmk,battery-voltage-divider";
+        io-channels = <&adc 7>;
+        output-ohms = <2000000>;
+        full-ohms = <(2000000 + 820000)>;
+    };
 };
 
 &adc {
-    status = "okay";
-};
-
-&vbatt {
     status = "okay";
 };
 
