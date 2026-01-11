@@ -29,37 +29,61 @@
 
         layer_0 {
             bindings = <
-             &kp HOME           &kp UP          &kp K_MENU
-             &kp LEFT           &kp TAB         &kp RIGHT
-&kp C_GREEN  &kp C_AL_CALENDAR  &kp DOWN        &kp C_AL_MAIL  &redht 0 C_RED
-&kp Q        &kp W              &kp E           &kp R          &kp T            &kp Y        &kp U          &kp I            &kp O    &kp P
-&kp A        &kp S              &kp D           &kp F          &kp G            &kp H        &kp J          &kp K            &kp L    &kp BACKSPACE
-&optht 1 2   &kp Z              &kp X           &kp C          &kp V            &kp B        &kp N          &kp M            &kp DOT  &kp ENTER
-                                &kp LEFT_SHIFT                 &kp KP_NUMBER_0  &kp SPACE    &kp RIGHT_ALT  &kp RIGHT_SHIFT
+             &kp HOME           &kp UP      &kp K_MENU
+             &kp LEFT           &kp TAB     &kp RIGHT
+&kp C_GREEN  &kp C_AL_CALENDAR  &kp DOWN    &kp C_AL_MAIL  &redht 0 C_RED
+&kp Q        &kp W              &kp E       &kp R          &kp T            &kp Y        &kp U          &kp I            &kp O    &kp P
+&kp A        &kp S              &kp D       &kp F          &kp G            &kp H        &kp J          &kp K            &kp L    &kp BACKSPACE
+&optht 1 2   &kp Z              &kp X       &kp C          &kp V            &kp B        &kp N          &kp M            &kp DOT  &kp ENTER
+                                &optht 3 4                 &kp KP_NUMBER_0  &kp SPACE    &kp RIGHT_ALT  &kp RIGHT_SHIFT
             >;
         };
 
         layer_1 {
             bindings = <
-              &kp HOME      &kp UP          &bootloader
-              &kp LEFT      &kp TAB         &kp RIGHT
-&bt BT_SEL 0  &bt BT_SEL 1  &kp DOWN        &bt BT_SEL 2  &bt BT_SEL 3
-&kp SLASH     &kp PLUS      &kp N1          &kp N2        &kp N3        &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
-&kp AMPS      &kp MINUS     &kp N4          &kp N5        &kp N6        &kp DOLLAR    &kp EXCLAMATION  &kp COLON        &kp SQT  &kp BACKSPACE
-&to 0         &kp ASTRK     &kp N7          &kp N8        &kp N9        &kp HASH      &kp QUESTION     &kp COMMA        &kp DOT  &kp ENTER
-                            &kp LEFT_SHIFT                &kp N0        &kp SPACE     &kp RIGHT_ALT    &kp RIGHT_SHIFT
+              &kp HOME      &kp UP      &bootloader
+              &kp LEFT      &kp TAB     &kp RIGHT
+&bt BT_SEL 0  &bt BT_SEL 1  &kp DOWN    &bt BT_SEL 2  &bt BT_SEL 3
+&kp SLASH     &kp PLUS      &kp N1      &kp N2        &kp N3        &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
+&kp AMPS      &kp MINUS     &kp N4      &kp N5        &kp N6        &kp DOLLAR    &kp EXCLAMATION  &kp COLON        &kp SQT  &kp BACKSPACE
+&to 0         &kp ASTRK     &kp N7      &kp N8        &kp N9        &kp HASH      &kp QUESTION     &kp COMMA        &kp DOT  &kp ENTER
+                            &optht 3 4                &kp N0        &kp SPACE     &kp RIGHT_ALT    &kp RIGHT_SHIFT
             >;
         };
 
         layer_2 {
             bindings = <
-             &kp HOME           &kp UP          &bt BT_CLR
-             &kp LEFT           &kp TAB         &kp RIGHT
-&kp C_GREEN  &kp C_AL_CALENDAR  &kp DOWN        &kp C_AL_MAIL  &redht 0 C_RED
-&kp SLASH    &kp PLUS           &kp N1          &kp N2         &kp N3          &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
-&kp AMPS     &kp MINUS          &kp N4          &kp N5         &kp N6          &kp DOLLAR    &kp EXCLAMATION  &kp COLON        &kp SQT  &kp BACKSPACE
-&to 1        &kp ASTRK          &kp N7          &kp N8         &kp N9          &kp HASH      &kp QUESTION     &kp COMMA        &kp DOT  &kp ENTER
-                                &kp LEFT_SHIFT                 &kp N0          &kp SPACE     &kp RIGHT_ALT    &kp RIGHT_SHIFT
+             &kp HOME           &kp UP      &bt BT_CLR
+             &kp LEFT           &kp TAB     &kp RIGHT
+&kp C_GREEN  &kp C_AL_CALENDAR  &kp DOWN    &kp C_AL_MAIL  &redht 0 C_RED
+&kp SLASH    &kp PLUS           &kp N1      &kp N2         &kp N3          &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
+&kp AMPS     &kp MINUS          &kp N4      &kp N5         &kp N6          &kp DOLLAR    &kp EXCLAMATION  &kp COLON        &kp SQT  &kp BACKSPACE
+&to 1        &kp ASTRK          &kp N7      &kp N8         &kp N9          &kp HASH      &kp QUESTION     &kp COMMA        &kp DOT  &kp ENTER
+                                &optht 3 4                 &kp N0          &kp SPACE     &kp RIGHT_ALT    &kp RIGHT_SHIFT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+                 &kp LS(HOME)           &kp LS(UP)    &kp LS(K_MENU)
+                 &kp LS(LEFT)           &kp LS(TAB)   &kp LS(RIGHT)
+&kp LS(C_GREEN)  &kp LS(C_AL_CALENDAR)  &kp LS(DOWN)  &kp LS(C_AL_MAIL)  &redht (0) LS(C_RED)
+&kp LS(Q)        &kp LS(W)              &kp LS(E)     &kp LS(R)          &kp LS(T)             &kp LS(Y)        &kp LS(U)          &kp LS(I)        &kp LS(O)  &kp LS(P)
+&kp LS(A)        &kp LS(S)              &kp LS(D)     &kp LS(F)          &kp LS(G)             &kp LS(H)        &kp LS(J)          &kp LS(K)        &kp LS(L)  &kp BACKSPACE
+&optht 1 2       &kp LS(Z)              &kp LS(X)     &kp LS(C)          &kp LS(V)             &kp LS(B)        &kp LS(N)          &kp LS(M)        &kp DOT    &kp ENTER
+                                        &to 0                            &kp LS(KP_NUMBER_0)   &kp LS(SPACE)    &kp LS(RIGHT_ALT)  &kp RIGHT_SHIFT
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+                 &kp LS(HOME)           &kp LS(UP)    &kp LS(K_MENU)
+                 &kp LS(LEFT)           &kp LS(TAB)   &kp LS(RIGHT)
+&kp LS(C_GREEN)  &kp LS(C_AL_CALENDAR)  &kp LS(DOWN)  &kp LS(C_AL_MAIL)  &redht (0) LS(C_RED)
+&kp LS(Q)        &kp LS(W)              &kp LS(E)     &kp LS(R)          &kp LS(T)             &kp LS(Y)        &kp LS(U)          &kp LS(I)        &kp LS(O)  &kp LS(P)
+&kp LS(A)        &kp LS(S)              &kp LS(D)     &kp LS(F)          &kp LS(G)             &kp LS(H)        &kp LS(J)          &kp LS(K)        &kp LS(L)  &kp BACKSPACE
+&optht 1 2       &kp LS(Z)              &kp LS(X)     &kp LS(C)          &kp LS(V)             &kp LS(B)        &kp LS(N)          &kp LS(M)        &kp DOT    &kp ENTER
+                                        &to 3                            &kp LS(KP_NUMBER_0)   &kp LS(SPACE)    &kp LS(RIGHT_ALT)  &kp RIGHT_SHIFT
             >;
         };
     };
