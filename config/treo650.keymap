@@ -22,15 +22,6 @@
 
             tapping-term-ms = <200>;
         };
-
-        btsht: btsht {
-            compatible = "zmk,behavior-hold-tap";
-            label = "BTSHT";
-            bindings = <&bt>, <&bt>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
     };
 
     keymap {
@@ -50,13 +41,13 @@
 
         layer_1 {
             bindings = <
-                        &kp HOME                &kp UP          &bootloader
-                        &kp LEFT                &kp TAB         &kp RIGHT
-&btsht BT_SEL BT_CLR 0  &btsht BT_SEL BT_CLR 1  &kp DOWN        &btsht BT_SEL BT_CLR 2  &btsht BT_SEL BT_CLR 3
-&kp SLASH               &kp PLUS                &kp N1          &kp N2                  &kp N3                  &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
-&kp AMPS                &kp MINUS               &kp N4          &kp N5                  &kp N6                  &kp DOLLAR    &kp EXCLAMATION  &kp COLON        &kp SQT  &kp BACKSPACE
-&to 0                   &kp ASTRK               &kp N7          &kp N8                  &kp N9                  &kp HASH      &kp QUESTION     &kp COMMA        &kp DOT  &kp ENTER
-                                                &kp LEFT_SHIFT                          &kp N0                  &kp SPACE     &kp RIGHT_ALT    &kp RIGHT_SHIFT
+              &kp HOME      &kp UP          &bootloader
+              &kp LEFT      &kp TAB         &kp RIGHT
+&bt BT_SEL 0  &bt BT_SEL 1  &kp DOWN        &bt BT_SEL 2  &bt BT_SEL 3
+&kp SLASH     &kp PLUS      &kp N1          &kp N2        &kp N3        &kp LPAR      &kp RPAR         &kp AT           &kp DQT  &bl BL_TOG
+&kp AMPS      &kp MINUS     &kp N4          &kp N5        &kp N6        &kp DOLLAR    &kp EXCLAMATION  &kp COLON        &kp SQT  &kp BACKSPACE
+&to 0         &kp ASTRK     &kp N7          &kp N8        &kp N9        &kp HASH      &kp QUESTION     &kp COMMA        &kp DOT  &kp ENTER
+                            &kp LEFT_SHIFT                &kp N0        &kp SPACE     &kp RIGHT_ALT    &kp RIGHT_SHIFT
             >;
         };
 
